@@ -1,9 +1,56 @@
+
 body {
-  font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
-  background: url(linedpaper.png) repeat;
+  width: 950px;
+  margin: 0 auto;
+  font-family: calibri;
+  color: gray;
+  background-color: gray;
 }
-#wrapper {
-  width: 960px;
-  margin: 20px auto;
+
+h1 {
+	color: black;
+}
+
+h4 {
+  border-bottom: 1px solid gray;
+  font-size: 20px;
+}
+
+a { 
+  color: blue;
+}
+
+p, li { 
+  font-size: 16px;
+  line-height: 20px;
+}
+
+
+#contact {
+	color: black;
+	background-color: clear;
+  	padding: 20px;
+}
+
+#photo {
+  padding: 10px;
+}
+
+#summary {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 2px;
+  height: 175px;
+}
+
+#table {
+  
+  color: black;
+  padding: 5px;
+  margin-top: 2px;
+}
+
+#profile {
+	float: right;
 }
