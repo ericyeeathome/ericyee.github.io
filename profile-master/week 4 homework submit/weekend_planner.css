@@ -1,0 +1,41 @@
+body {
+  	width: 960px;
+  	margin: 0 auto;
+  	font-family: helvetica neue, arial, sans-serif;
+  	color: black;
+}
+
+a { 
+  color: black;
+  font-size: 15px;
+}
+
+td { 
+  color: black;
+  font-size: 15px;
+}
+
+.search_center {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 50%;
+}
+
+.search_center_title {
+	position: absolute;
+	left: 40%;
+	top: 40%;
+  
+	transform: translate(-50%, -50%);
+	width: 40%;
+	height: 60%;
+  color:white;
+}
+
+h3 {
+  font-size: 12px;
+  color: black;
+}
