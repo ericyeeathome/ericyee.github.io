@@ -1,0 +1,50 @@
+body {
+  	width: 960px;
+  	margin: 0 auto;
+  }
+
+  .navbar-header {
+    background: rgba(0,0,0,0.2);
+  }
+
+.navbar.transparent .navbar-inner {
+       background: rgba(0,0,0,0.2);
+       color: white;
+    }
+.navbar.transparent .navbar-inner li a {
+        color: white;
+        font-family: calibri;
+        font-size: 10pt;
+        letter-spacing: 3pt;
+    }
+.navbar.transparent .nav > li > a:focus,
+    .navbar.transparent .nav > li > a:hover {
+      color: white;
+      background-color: transparent;
+    }
+.button.navbar-toggle.collapsed:focus,
+.button.navbar-toggle.collapsed:hover {
+      color: white;
+    }
+   
+.navbar.transparent .navbar-brand{
+      background-color: transparent;
+      color: white;
+      font-family: calibri;
+      font-size: 12pt;
+      letter-spacing: 3pt;
+    }
+
+.thumbs {
+	margin-top: 100pt;
+	padding: 0 30px 30px 0;
+}
+
+.summary {
+	margin-top: 100pt;
+}
+
+p {
+	margin-top: 25pt;
+	margin-bottom: 50pt;
+}

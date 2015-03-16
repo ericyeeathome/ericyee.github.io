@@ -1,0 +1,62 @@
+body {
+  	width: 960px;
+  	margin: 0 auto;
+  	font-family: calibri;
+  	color: black;
+    background-image: url(good.jpg);
+    background-size: cover;
+  }
+
+  p {
+  	color: white;
+  	letter-spacing: 3pt;
+  	font-size: 14px;
+  }
+
+.black {
+  color: black;
+}
+  .title	{
+  	color: white;
+  	letter-spacing: 3pt;
+  	font-size: 50px;
+  }
+
+  .writing {
+  padding: 10px;
+  background-color: rgba(0,0,0,0.2);
+  margin-top: 100px;
+}
+
+.navbar-header {
+    background: rgba(0,0,0,0.2);
+  }
+
+.navbar.transparent .navbar-inner {
+       background: rgba(0,0,0,0.2);
+       color: white;
+    }
+.navbar.transparent .navbar-inner li a {
+        color: white;
+        font-family: calibri;
+        font-size: 10pt;
+        letter-spacing: 3pt;
+    }
+.navbar.transparent .nav > li > a:focus,
+    .navbar.transparent .nav > li > a:hover {
+      color: white;
+      background-color: transparent;
+    }
+.button.navbar-toggle.collapsed:focus,
+.button.navbar-toggle.collapsed:hover {
+      color: white;
+    }
+   
+.navbar.transparent .navbar-brand{
+      background-color: transparent;
+      color: white;
+      font-family: calibri;
+      font-size: 12pt;
+      letter-spacing: 3pt;
+    }
+ 

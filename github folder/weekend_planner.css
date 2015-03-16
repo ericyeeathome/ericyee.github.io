@@ -1,0 +1,78 @@
+body {
+  	width: 960px;
+  	margin: 0 auto;
+  	font-family: helvetica neue, arial, sans-serif;
+  	color: black;
+    background-image: url(sf.jpg);
+    background-size: cover;
+  }
+
+
+.welcome {
+  float: right;
+  color:white;
+  font-family: calibri;
+  font-size: 16px;
+  clear: both;
+  padding: 20px;
+  margin-right: 217px;
+  margin-top: 325px;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 3pt;
+}
+
+.title {
+  float: right;
+  color:white;
+  font-family: calibri;
+  font-size: 50px;
+  margin-top: 25px;
+  margin-left: 240px;
+  margin-bottom: 50px;
+  white-space: nowrap;
+  overflow: hidden;
+  letter-spacing: 3pt;
+  }
+
+
+.btn{
+  font-family: calibri;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  margin-left: 3px;
+  letter-spacing: 3pt;
+}
+
+.navbar-header {
+    background: rgba(0,0,0,0.2);
+  }
+
+.navbar.transparent .navbar-inner {
+       background: rgba(0,0,0,0.2);
+       color: white;
+    }
+.navbar.transparent .navbar-inner li a {
+        color: white;
+        font-family: calibri;
+        font-size: 10pt;
+        letter-spacing: 3pt;
+    }
+.navbar.transparent .nav > li > a:focus,
+    .navbar.transparent .nav > li > a:hover {
+      color: white;
+      background-color: transparent;
+    }
+.button.navbar-toggle.collapsed:focus,
+.button.navbar-toggle.collapsed:hover {
+      color: white;
+    }
+   
+    .navbar.transparent .navbar-brand{
+      background-color: transparent;
+      color: white;
+      font-family: calibri;
+      font-size: 12pt;
+      letter-spacing: 3pt;
+    }
